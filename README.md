@@ -41,6 +41,7 @@ interval_budgets = distributions.distribute_budget_exponential(P, total_budget, 
 print("Exponential distribution:", interval_budgets)
 # output:  [1201, 601, 301, 151, 75, 37, 18, 9, 4, 2, 1, 0]
 
+```
 ## Visualization
 
-The visualization notebook (`distributions_visualization.ipynb`) provides an interactive environment to explore budget distributions using both linear and exponential allocation strategies. Users can adjust the parameter `P` and visualize the resulting budget allocations over time intervals.
+The visualization notebook `distributions_visualization.ipynb` provides an environment to explore budget distributions using both linear and exponential allocation strategies. Users can adjust the parameter `P` and visualize the resulting budget allocations over time intervals.
